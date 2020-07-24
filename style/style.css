@@ -1,0 +1,36 @@
+/* body{
+    background-color:yellow;
+} */
+
+#about-title{
+    text-align:center;
+}
+
+#about-bar{
+    margin-top:30px;
+}
+
+#about-box{
+    background-color:grey;
+    border:1px solid #000;
+    color:grey;
+
+}
+
+#about-para{
+    margin:10px;
+    text-align:center;
+
+}
+
+#cara{
+    color:#000;
+}
+
+#contact-bar{
+    text-align:center;
+}
+
+.display-4{
+    text-align:center
+}
