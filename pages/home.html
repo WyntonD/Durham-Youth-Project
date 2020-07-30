@@ -16,6 +16,7 @@
 </head>
 <body>
         <nav class="navbar navbar-expand-lg navbar-dark bg-dark navbar sticky-top">
+            <!-- <img src="../images/DYP.jpeg" alt="DYP Logo" id="dyp-logo" class="img-thumbnail"> -->
                 <a class="navbar-brand" href="#">Durham Youth Project</a>
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                   <span class="navbar-toggler-icon"></span>
@@ -23,17 +24,39 @@
               
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
                   <ul class="navbar-nav mr-auto">
-                    <li class="nav-item active">
-                      <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                    <li class="nav-item">
+                      <a class="nav-link" href="#">
+                        <button type="button" class="btn btn-primary">
+                          About Us
+                        </button></a>
                     </li>
                     <li class="nav-item">
-                      <a class="nav-link" href="#">About Us</a>
+                            <a class="nav-link" href="#">
+                              <button type="button" class="btn btn-primary">
+                                Scholarships
+                              </button>
+                            </a>
                     </li>
                     <li class="nav-item">
-                            <a class="nav-link" href="#">Scholarships</a>
+                            <a class="nav-link" href="#">
+                                <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#Modal">
+                                    Members
+                                  </button>
+                            </a>
                     </li>
                     <li class="nav-item">
-                            <a class="nav-link" href="#">Contact</a>
+                            <a class="nav-link" href="#">
+                              <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#Modal">
+                                Initiatives
+                              </button>
+                            </a>
+                    </li> 
+                    <li class="nav-item">
+                            <a class="nav-link" href="#">
+                              <button type="button" class="btn btn-primary">
+                                Contact
+                              </button>
+                            </a>
                     </li>
                     <!-- <li class="nav-item dropdown">
                       <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
@@ -129,8 +152,8 @@
 
 <div class="jumbotron" id="contact-bar">
             <h1 class="display-4">Contact Us</h1>
-            <p class="lead">Email:
-                duchesstabb@gmail.com</p>
+            <p class="lead">durhamyouthproject@gmail.com</p><br/>
+                <p class="lead">duchesstabb@gmail.com</p>
             <p>Mail:
                 Attn. Durham Youth Project
                 3 Texanna Circle
@@ -139,11 +162,30 @@
             <hr class="my-4">
         </div>
 
+        <div class="modal fade" id="Modal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h5 class="modal-title" id="exampleModalLabel">Currently Under Construction</h5>
+                  <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                  </button>
+                </div>
+                <div class="modal-body">
+                  This page is coming soon
+                </div>
+                <div class="modal-footer">
+                  <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                </div>
+              </div>
+            </div>
+          </div>
+
 <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
             <div class="modal-dialog">
               <div class="modal-content">
                 <div class="modal-header">
-                  <h5 class="modal-title" id="exampleModalLabel">Donate to the Durham Youth Project</h5>
+                  <h5 class="modal-title" id="donate-title">Donate to the Durham Youth Project</h5>
                   <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                     <span aria-hidden="true">&times;</span>
                   </button>
@@ -182,7 +224,7 @@
                 </div>
                 <div class="modal-footer">
                   <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-                  <button type="button" class="btn btn-primary">Save changes</button>
+                  <button type="button" class="btn btn-primary">Donate</button>
                 </div>
               </div>
             </div>
